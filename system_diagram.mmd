@@ -1,0 +1,7 @@
+%% Sơ đồ hoạt động của trạm giám sát tiếng ồn thông minh
+
+graph TD;
+    A[Microphone - KY-038] --> B[ESP32];
+    B --> C[Module Wi-Fi];
+    C --> D[Máy chủ];
+    D --> E[Giao diện web hiển thị dữ liệu];
